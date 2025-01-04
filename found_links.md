@@ -1,4 +1,20 @@
 --------------
+DFU Mode
+Using the Python HID Library, this is effortless. The important thing to know is the dfu_payload which get’s send to the device.
+```
+dfu_payload = [0, 85, 170, 1, 2, 3, 4, 170, 85]
+device = hid.device()
+device.open(vendor_id,product_id)
+print(f"HID: Found Device: {device.get_manufacturer_string()} {device.get_product_string()}")
+data = bytearray(byte_array_left_pad([0, 33, 9, 0, 2, 1, 0, 64, 0], 0, 65))
+buffer_payload = bytearray(byte_array_left_pad(dfu_payload, 0, 65))
+device.write(data)
+try:
+	device.write(buffer_payload)
+except Exception:
+	print("\nCommunication Error or DFU Success...")
+```
+You can now flash new firmware on the chip.
 https://nv1t.github.io/blog/kekz-headphones/
 --------------
 https://vi.aliexpress.com/item/1005007090348648.html
