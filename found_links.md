@@ -1,4 +1,6 @@
 --------------
+https://nv1t.github.io/blog/kekz-headphones/
+
 DFU Mode
 Using the Python HID Library, this is effortless. The important thing to know is the dfu_payload which get’s send to the device.
 ```
@@ -15,7 +17,7 @@ except Exception:
 	print("\nCommunication Error or DFU Success...")
 ```
 You can now flash new firmware on the chip.
-https://nv1t.github.io/blog/kekz-headphones/
+
 --------------
 https://vi.aliexpress.com/item/1005007090348648.html
 --------------
