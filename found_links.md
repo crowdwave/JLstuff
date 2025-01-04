@@ -1,4 +1,6 @@
 --------------
+https://gitlab.zh-jieli.com/soundbox/novisualization/ac695n_soundbox_sdk
+--------------
 https://github.com/kagaimiq/jl-misctools
 --------------
 https://electronics.stackexchange.com/questions/734433/jieli-tech-ac6955f4-bluetooth-ic-programming
