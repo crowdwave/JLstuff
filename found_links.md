@@ -1,4 +1,6 @@
 --------------
+https://vi.aliexpress.com/item/1005007090348648.html
+--------------
 https://doc.zh-jieli.com/AC79/zh-cn/release_v1.1.0/getting_started/preparation/update.html
 --------------
 https://gitlab.zh-jieli.com/soundbox/novisualization/ac695n_soundbox_sdk
