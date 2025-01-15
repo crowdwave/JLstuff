@@ -1,3 +1,7 @@
+https://doc.zh-jieli.com/vue/#/docs/MCU
+
+https://doc.zh-jieli.com/vue/#/docs/tools
+
 https://doc.zh-jieli.com/vue/#/docs/ac791N
 
 https://doc.zh-jieli.com/vue/#/docs/ac792n
